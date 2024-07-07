@@ -1,0 +1,201 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.main{
+  height: 120vh;
+  background:rgba(0, 0, 0, 0.7) url("img1.jpg");
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+  background-blend-mode:darken ;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+header .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar .logo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2.1rem;
+  text-decoration: none;
+}
+
+.navbar .logo span {
+  color: #C06B3E;
+}
+
+.navbar .menu-links {
+  display: flex;
+  list-style: none;
+  gap: 35px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.navbar a:hover {
+  color: #C06B3E;
+}
+
+.hero-section {
+
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.hero-section .content {
+  max-width: 1200px;
+  width: 100%;
+  color: #fff;
+  margin-left:450px ;
+  margin-top: 250px;
+}
+
+.hero-section .content h2 {
+  font-size: 3rem;
+  line-height: 70px;
+}
+
+.hero-section .content p {
+  font-weight: 300;
+  max-width: 600px;
+  margin-top: 15px;
+}
+
+.hero-section .content a button {
+  background: #fff;
+  padding: 12px 30px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  margin-top: 38px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.hero-section .content a button:hover {
+  color: #fff;
+  background: #C06B3E;
+}
+
+
+.main2{
+  background:rgba(0, 0, 0, 0.4) url(img2.jpg);
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
+  background-blend-mode: darken;
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  height: 110vh;
+  width: 100vw;
+  overflow-y: hidden;
+}
+
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section, .search-section {
+  margin-bottom: 20px;
+ 
+}
+
+textarea, input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;  
+}
+
+.input-section button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.tweet {
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+
+}
+
+.gallery {
+  padding: 50px;
+  display: flex;
+}
+
+.galleryItem {
+  flex: 1;
+  padding: 20px;
+}
+
+.galleryImg {
+  width: 90%;
+  height: 400px;
+  box-shadow: 1px 1px 20px 1px black;
+  border-radius: 40px;
+  transition: 1s ease-in-out;
+
+}
+
+.galleryImg:hover{
+  transform: rotateY(150deg);
+}
+
+.galleryTitle{
+  /* height: 10px; */
+  margin-bottom: 20px;
+}
+
+.galleryTitle2{
+  margin-top: 20px;
+}
